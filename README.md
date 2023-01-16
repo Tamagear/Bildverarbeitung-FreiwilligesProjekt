@@ -35,7 +35,7 @@ Sie wurde im Zuge des Moduls **Bildverarbeitung** an der [FH Aachen](https://www
 Als für mobile Endgeräte kann **CoinCat** in Alltagssituationen helfen, so zum Beispiel, um genügend Geld für den Parkautomaten aus dem mitgeführten Kleingeld hervorzuheben.
 
 ### Beispieldaten
-Beispiele für einlesbare Bilder finden sich im Ordner [Beispiele]().
+Beispiele für einlesbare Bilder finden sich im Ordner [Beispiele](https://github.com/Tamagear/Bildverarbeitung-FreiwilligesProjekt/tree/main/Beispiele).
 
 ### Projektpräsentation
 Die Projektpräsentationen finden sich im Ordner [Präsentationen](https://github.com/Tamagear/Bildverarbeitung-FreiwilligesProjekt/tree/main/Pr%C3%A4sentationen).
