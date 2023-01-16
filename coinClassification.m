@@ -1,12 +1,12 @@
-function dict=coinClassification(net, imdsTest)
+function y=coinClassification(net, imdsTest, cells)
     [YTest, scores] = classify(net, imdsTest);
     numImages = numel(imds.Files);
-    idx = randperm(numel(imdsTest.Files), numImages);
     for i=1:numImages        
-        sc = max(scores(idx(i),:));
-        % TODO: Ins Dict
-        label2decimal(YTest(idx(i)), sc, 0.5);       
+        sc = max(scores(i,:));
+        dec = label2decimal(YTest(i), sc, 0.5);
+        cells(i, 6) = dec;
     end
+    y = cells;
 end
 
 function res = label2decimal(label, score, t)
