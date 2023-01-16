@@ -1,6 +1,5 @@
-function y = cut(radiusPadding, IOrig)
+function y = cut(radiusPadding, IOrig)      
     imshow(IOrig);
-    
     d = drawline;
     pos = d.Position;
     diffPos = diff(pos);
