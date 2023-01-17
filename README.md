@@ -14,6 +14,7 @@ Sie wurde im Zuge des Moduls **Bildverarbeitung** an der [FH Aachen](https://www
 [Über Matlab die folgenden Toolboxen installieren](https://de.mathworks.com/help/matlab/matlab_env/get-add-ons.html):
 - [Computer Vision Toolbox](https://de.mathworks.com/products/computer-vision.html)
 - [Image Processing Toolbox](https://de.mathworks.com/products/image.html)
+- [Image Manipulation Toolbox](https://de.mathworks.com/matlabcentral/fileexchange/53786-image-manipulation-toolbox)
 - [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html)
 - [Parallel Computing Toolbox](https://www.mathworks.com/products/parallel-computing.html)
 
