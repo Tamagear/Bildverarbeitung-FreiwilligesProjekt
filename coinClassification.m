@@ -1,12 +1,15 @@
-function y=coinClassification(net, imdsTest, cells)
+function [y,z]=coinClassification(net, imdsTest, cells)
     [YTest, scores] = classify(net, imdsTest);
-    numImages = numel(imds.Files);
+    numImages = numel(imdsTest.Files);
+    total = 0;
     for i=1:numImages        
         sc = max(scores(i,:));
         dec = label2decimal(YTest(i), sc, 0.5);
-        cells(i, 6) = dec;
+        cells(i, 6) = num2cell(dec);
+        total = total + dec;
     end
     y = cells;
+    z = total;
 end
 
 function res = label2decimal(label, score, t)
