@@ -172,7 +172,7 @@ Die Teilbilder werden in das neurale Netzwerk eingespeist. Ihnen werden Wertigke
 - Filterungsoperationen können fehlschlagen. Der Filter "Cheat" liefert ausschließlich bei festgelegten Testbildern ein präzises Ergebnis und ist nicht für den Einsatz in Realsituationen vorgesehen.
 
 **Anmerkungen**:
-- mit ausnahme der Filter "Kein Filter" und "Cheat" können Filterunsversuche Fehlschlagen, sollte eine Filterung aufgrund fehlender Voraussetzungen nicht möglich sein. Gründe hierfür sind etwa ein zu geringer Gesamtbetrag um einen gewünschten Betrag darzustellen.
+- mit Ausnahme der Filter "Kein Filter" und "Cheat" können Filterunsversuche Fehlschlagen, sollte eine Filterung aufgrund fehlender Voraussetzungen nicht möglich sein. Gründe hierfür sind etwa ein zu geringer Gesamtbetrag um einen gewünschten Betrag darzustellen.
 
 **Quellen**:
 - [gcolorize](https://de.mathworks.com/matlabcentral/fileexchange/53786-image-manipulation-toolbox)
@@ -190,7 +190,7 @@ Die Teilbilder werden in das neurale Netzwerk eingespeist. Ihnen werden Wertigke
 
 Der Nutzer kann aus verschiedenen Filterungsoptionen auswählen, welche Münzen im Ausgangsbild farbig hinterlegen.
 Dem Nutzer stehen folgende Filterungsoptionen zur Verfügung:
-- "Kein Filter": Es wird kein Filter angewand, alle Münzen werden basierend auf ihrem Wert eingefärbt.
+- "Kein Filter": Es wird kein Filter angewandt, alle Münzen werden basierend auf ihrem Wert eingefärbt.
 - "Wenige Münzen": Der Nutzer kann einen gewünschten Betrag angeben. Das Programm ermittelt nun die kleinstmögliche Kombination an gegebenen Münzen um diesen Betrag zu erhalten und hinterlegt diese basierend auf ihrem Wert farbig.
 - "Mindestens": Der Nutzer kann einen Mindestwert angeben. Es werden die Münzen farblich hinterlegt, welche mindestens diesen Wert besitzen.
 - "Maximal": Der Nutzer kann einen Maximalwert angeben. Es werden die Münzen farblich hinterlegt, welche maximal diesen Wert besitzen.
